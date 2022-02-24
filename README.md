@@ -1,4 +1,4 @@
-# Force File Download in WordPress via Htaccess
+# 1. Force File Download in WordPress via Htaccess
 
 Add a file extension that needs to be downloaded e.g png/mp4
 
