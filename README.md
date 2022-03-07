@@ -12,7 +12,7 @@ Add a file extension that needs to be downloaded e.g png/mp4
        Header set Content-Disposition attachment
      </FilesMatch>
      
-  # Current Year In Avia[Enfold]
+  # 2. Current Year In Avia[Enfold]
     function avia_year_func( $atts ){
 	return date("Y");
       }
