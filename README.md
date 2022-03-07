@@ -6,7 +6,7 @@ Add a file extension that needs to be downloaded e.g png/mp4
 	ForceType application/octet-stream Header set Content-Disposition attachment 
 	</filesMatch>
   
-  ## for pdf
+  ### force download for pdf only
     <FilesMatch "\.(?i:pdf)$">
        ForceType application/octet-stream
        Header set Content-Disposition attachment
@@ -17,3 +17,4 @@ Add a file extension that needs to be downloaded e.g png/mp4
 	return date("Y");
       }
     add_shortcode( 'current_year', 'avia_year_func' );
+  Then use shortcode *[current_year]* for preview
