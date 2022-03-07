@@ -13,9 +13,9 @@ Add a file extension that needs to be downloaded e.g png/mp4
      </FilesMatch>
      
   # 2. Current Year In Avia[Enfold]
-  creating a shortcode for dynamic year
     function avia_year_func( $atts ){
 	return date("Y");
       }
     add_shortcode( 'current_year', 'avia_year_func' );
+  creating a shortcode for dynamic year  
   Then use shortcode *[current_year]* for preview
