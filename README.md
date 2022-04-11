@@ -1,5 +1,7 @@
 # Table of contents
 1. [Force File Download in WordPress via Htaccess](#forcedownload)
+2. [Current Year In Avia/Enfold](#Currentyear)
+3. [Bulk delete spam comments/ comment](#deletecomments)
 
 
 # 1. Force File Download in WordPress via Htaccess <a name="forcedownload"></a>
@@ -18,7 +20,7 @@ Add a file extension that needs to be downloaded e.g png/mp4
        Header set Content-Disposition attachment
      </FilesMatch>
      
-  # 2. Current Year In Avia[Enfold]
+  # 2. Current Year In Avia/Enfold <a name="Currentyear"></a>
     function avia_year_func( $atts ){
 	return date("Y");
       }
@@ -28,7 +30,7 @@ Add a file extension that needs to be downloaded e.g png/mp4
   This creats a shortcode for dynamic year  
   2. Then use shortcode *[current_year]* for preview anywhere in text editor
   
-  # 3. Bulk delete spam comments/ comment
+  # 3. Bulk delete spam comments/ comment <a name="deletecomments"></a>
     DELETE FROM wp_comments WHERE comment_approved = '0';
     where:
     '0' - unapproved
