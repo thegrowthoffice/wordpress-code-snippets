@@ -1,5 +1,7 @@
 # 1. Force File Download in WordPress via Htaccess
-
+Instructions:
+ 1. The snippet below is added to Htaccess file via cpanel (file manager)
+ 2. Heads up!! Don't forget to back up htaccesss file before editing
 Add a file extension that needs to be downloaded e.g png/mp4
 
 	<filesmatch “.(mov|mp3|jpg|pdf)$”>
