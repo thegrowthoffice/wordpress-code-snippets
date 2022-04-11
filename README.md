@@ -19,3 +19,9 @@ Add a file extension that needs to be downloaded e.g png/mp4
     add_shortcode( 'current_year', 'avia_year_func' );
   creating a shortcode for dynamic year  
   Then use shortcode *[current_year]* for preview
+  
+  # 3. Bulk delete spamm comments/ comments
+    DELETE FROM wp_comments WHERE comment_approved = '0';
+    '0' - unapproved
+    '1' - approved
+    'spam' - spamm folder
