@@ -20,8 +20,14 @@ Add a file extension that needs to be downloaded e.g png/mp4
   creating a shortcode for dynamic year  
   Then use shortcode *[current_year]* for preview
   
-  # 3. Bulk delete spamm comments/ comments
+  # 3. Bulk delete spam comments/ comment
     DELETE FROM wp_comments WHERE comment_approved = '0';
     '0' - unapproved
     '1' - approved
     'spam' - spamm folder
+Instructions:
+1. from phpmyadmin
+2. select  infected  database 
+3. find *wp_comments* table to equivalent
+4. select SQL tab
+5. paste command and edit it according
