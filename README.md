@@ -10,6 +10,9 @@ Instructions:
  2. Heads up!! Don't forget to back up htaccesss file before editing
  3. Add a file extension that needs to be downloaded e.g png/mp4
 
+Usage:
+copy a link of the file uploaded and use it on any button or text-link (download works automatically)
+
   ### 1.1 force download for any file
      <filesmatch “.(mov|mp3|jpg|pdf)$”>
      ForceType application/octet-stream Header set Content-Disposition attachment 
