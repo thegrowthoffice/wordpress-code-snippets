@@ -17,11 +17,14 @@ Add a file extension that needs to be downloaded e.g png/mp4
 	return date("Y");
       }
     add_shortcode( 'current_year', 'avia_year_func' );
-  creating a shortcode for dynamic year  
-  Then use shortcode *[current_year]* for preview
+  Instructions:
+  1. add the fuction above in child theme functions file
+  This creats a shortcode for dynamic year  
+  2. Then use shortcode *[current_year]* for preview anywhere in text editor
   
   # 3. Bulk delete spam comments/ comment
     DELETE FROM wp_comments WHERE comment_approved = '0';
+    where:
     '0' - unapproved
     '1' - approved
     'spam' - spamm folder
