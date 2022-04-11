@@ -1,4 +1,8 @@
-# 1. Force File Download in WordPress via Htaccess
+# Table of contents
+1. [Force File Download in WordPress via Htaccess](#forcedownload)
+
+
+# 1. Force File Download in WordPress via Htaccess <a name="forcedownload"></a>
 Instructions:
  1. The snippet below is added to Htaccess file via cpanel (file manager)
  2. Heads up!! Don't forget to back up htaccesss file before editing
