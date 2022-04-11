@@ -39,6 +39,6 @@ Add a file extension that needs to be downloaded e.g png/mp4
 Instructions:
 1. from phpmyadmin
 2. select  infected  database 
-3. find *wp_comments* table to equivalent
+3. find *wp_comments* table or equivalent
 4. select SQL tab
 5. paste command and edit it according
