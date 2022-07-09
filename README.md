@@ -46,3 +46,9 @@ Instructions:
 3. find *wp_comments* table or equivalent
 4. select SQL tab
 5. paste command and edit it according
+
+# 4. Increase Space in Icon List (enfold)
+	.avia-icon-list li {
+    padding: 0 0 15px 0 !important;
+    min-height: 20px !important;
+}
