@@ -50,10 +50,11 @@ Instructions:
 5. paste command and edit it according
 
 # 4. Increase Space in Icon List (enfold) <a name="iconlistspace"></a>
-	.avia-icon-list li {
+	.page-id-73 .avia-icon-list li {
     padding: 0 0 15px 0 !important;
     min-height: 20px !important;
 }
+	#73 is page ID for the wordpress-code
 
 # 5. Plugin to keep enfold form data <a name="enfoldformdata"></a>
  1. download the plugin zip at https://github.com/mdsimpson/contact-form-7-to-database-extension/releases
