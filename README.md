@@ -2,6 +2,8 @@
 1. [Force File Download in WordPress via Htaccess](#forcedownload)
 2. [Current Year In Avia/Enfold](#Currentyear)
 3. [Bulk delete spam comments/ comment](#deletecomments)
+4. [increase Icons list space](#iconlistspace)
+5. [Save Enfold form data](#enfoldformdata)
 
 
 # 1. Force File Download in WordPress via Htaccess <a name="forcedownload"></a>
@@ -47,8 +49,12 @@ Instructions:
 4. select SQL tab
 5. paste command and edit it according
 
-# 4. Increase Space in Icon List (enfold)
+# 4. Increase Space in Icon List (enfold) <a name="iconlistspace"></a>
 	.avia-icon-list li {
     padding: 0 0 15px 0 !important;
     min-height: 20px !important;
 }
+
+# 5. Plugin to keep enfold form data <a name="enfoldformdata"></a>
+ 1. download the plugin zip at https://github.com/mdsimpson/contact-form-7-to-database-extension/releases
+ 2. upload to website plugin 
